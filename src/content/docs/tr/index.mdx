@@ -1,0 +1,96 @@
+---
+title: AI Systems Architecture Handbook
+description: LLM tabanlı sistemleri production'da ayakta tutacak şekilde kurmak için bir mühendislik el kitabı.
+template: splash
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: index, follow
+hero:
+  tagline: LLM tabanlı sistemleri production için tasarlamak - olasılıksal bileşenlerden yönetişimli platformlara.
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Okumaya Başla
+      link: /ai-systems-architecture/tr/foundations
+      icon: right-arrow
+      variant: primary
+    - text: GitHub reposunu ziyaret et
+      link: https://github.com/gorkemsari/ai-systems-architecture
+      icon: github
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Bu El Kitabı Hakkında
+
+Bu el kitabı, LLM tabanlı yetenekleri production sistemlere güvenli, ölçeklenebilir, gözlemlenebilir ve maliyet-etkin şekilde entegre etmenin mimarisini ele alır. Hedef kitlesi, halihazırda dağıtık sistemler inşa eden ve şimdi bu sistemleri doğası gereği olasılıksal bir bileşenle çalıştırmak zorunda kalan solution/software architect'ler ve senior mühendislerdir.
+
+Model eğitimi, makine öğrenmesi matematiği ve araştırma seviyesindeki konular bilinçli olarak kapsam dışıdır; fine-tuning yalnızca mimari ve entegrasyon kararı olarak ele alınır. Her sayfa belirli ürünler yerine kalıcı prensiplere ve desenlere odaklanır; araçları öneri olarak değil, bir mekanizmanın örneği olarak anar.
+
+Bu el kitabı, [Distributed Systems Handbook](https://gorkemsari.github.io/distributed-systems/tr/)'un tamamlayıcısıdır. Idempotency, saga, backpressure, caching ve tutarlılık modelleri gibi temel yapı taşları orada bir kez anlatılır; buradaki sayfalar bunları AI sistemlerine uygular ve tekrar anlatmak yerine ilgili sayfaya link verir.
+
+## Okuma Yolları
+
+- **Architect'ler** I. ve II. bölümlerle başlar, production için bir şey tasarlamadan önce VI., VII. ve XIV. bölümleri okur.
+- **Platform mühendisleri** IX., X. ve XI. bölümlere odaklanır.
+- **Güvenlik mühendisleri** VII. bölüme, ardından IV. (retrieval yetkilendirmesi) ve V. (agent izolasyonu) bölümlere gider.
+- **İlk AI özelliğini çıkaran tech lead'ler** sırasıyla III., IV., VI. ve VIII. bölümleri izler.
+
+## İçindekiler
+
+<CardGrid stagger>
+  <Card title="I. Temeller: AI Sistemlerinin Mimari Doğası" icon="open-book">
+    Olasılıksal bir bileşen testi, sözleşmeyi ve hata analizini nasıl değiştirir; AI ne zaman yanlış araçtır.
+  </Card>
+  <Card title="II. Model Stratejisi & Seçimi" icon="document">
+    Mimariyi tek bir provider'a kilitlemeden model seçmek, yönlendirmek, versiyonlamak ve uyarlamak.
+  </Card>
+  <Card title="III. Context Engineering" icon="pencil">
+    Context window'u kıt ve fiyatlı bir kaynak olarak ele almak: prompt katmanları, structured output, caching.
+  </Card>
+  <Card title="IV. Retrieval & Bilgi Mimarisi" icon="add-document">
+    Doğru kurumsal bilgiyi modele ulaştırmak: ingestion, chunking, indexleme, hybrid search ve yetkilendirme.
+  </Card>
+  <Card title="V. Tool Kullanımı & Agent Mimarisi" icon="rocket">
+    Aksiyon alan modeller: tool tasarımı, MCP, agent desenleri, durable execution, idempotency ve insan onayı.
+  </Card>
+  <Card title="VI. Evaluation & Kalite Mühendisliği" icon="approve-check">
+    Deterministik olmayan bir sistemde kaliteyi tanımlamak, ölçmek ve korumak: golden dataset'ten CI quality gate'e.
+  </Card>
+  <Card title="VII. AI Güvenliği" icon="warning">
+    Prompt injection, veri sızdırma, zehirlenme ve agent yetkilendirme: yeni saldırı yüzeyi ve katmanlı savunma.
+  </Card>
+  <Card title="VIII. Güvenilirlik & Dayanıklılık" icon="star">
+    Provider'lar çöktüğünde ve çıktılar bozulduğunda kontrolü korumak: fallback, doğrulama, guardrail.
+  </Card>
+  <Card title="IX. Inference Serving & Altyapı" icon="laptop">
+    Modelleri kendi donanımında çalıştırmak: KV cache, batching, quantization, GPU kapasitesi ve Kubernetes serving.
+  </Card>
+  <Card title="X. AI Gateway & Platform Mimarisi" icon="setting">
+    AI kullanımının merkezi kontrol noktası: LLM gateway, token quota, semantic caching, registry'ler, paved road.
+  </Card>
+  <Card title="XI. Observability & LLMOps" icon="magnifier">
+    Production'daki AI için tracing, loglama, drift tespiti, değişiklik yönetimi ve incident müdahalesi.
+  </Card>
+  <Card title="XII. Maliyet & Performans Ekonomisi" icon="sun">
+    Para nereye gidiyor ve kaliteden ödün vermeden nasıl azaltılır: token, maliyet dağıtımı, TCO, optimizasyon.
+  </Card>
+  <Card title="XIII. AI için Veri Yönetişimi" icon="list-format">
+    AI sistemlerini besleyen ve onların ürettiği verinin kalitesi, kökeni, yeniden kullanımı, saklanması ve silinmesi.
+  </Card>
+  <Card title="XIV. Yönetişim, Risk & Uyum" icon="information">
+    Risk seviyeleri, model risk yönetimi, EU AI Act, KVKK ve BDDK, denetlenebilirlik ve AI operating model.
+  </Card>
+  <Card title="XV. UX & Ürün Entegrasyonu" icon="puzzle">
+    Ürün yüzeyi backend'i nasıl şekillendirir: streaming, etkileşim desenleri ve belirsizliğin iletilmesi.
+  </Card>
+  <Card title="XVI. AI Destekli Yazılım Mühendisliği" icon="github">
+    Mühendislik sürecinin içinde AI: kod asistanları, review standartları, agentic coding güvenliği.
+  </Card>
+  <Card title="XVII. Desenler, Referans Mimariler & Araç Seti" icon="heart">
+    Yeniden kullanılabilir desenler, anti-pattern'ler, ADR şablonları, inceleme listeleri ve referans mimariler.
+  </Card>
+</CardGrid>

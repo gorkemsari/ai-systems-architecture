@@ -1,0 +1,51 @@
+---
+// Wraps Starlight's default footer (edit link, last updated, pagination) and
+// adds a localized line with copyright, the content license (CC BY-NC-SA 4.0
+// requires visible attribution), a GitHub star link, and an error-report link.
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const repo = 'https://github.com/gorkemsari/ai-systems-architecture';
+const tr = Astro.locals.starlightRoute.locale === 'tr';
+const text = tr
+  ? {
+      license: 'İçerik CC BY-NC-SA 4.0 lisansıyla paylaşılmaktadır',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr',
+      star: "Faydalı bulduysanız GitHub'da yıldız verin",
+      issue: 'Hata mı gördünüz? Bildirin',
+    }
+  : {
+      license: 'Content licensed under CC BY-NC-SA 4.0',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+      star: 'Found it useful? Star it on GitHub',
+      issue: 'Spotted an error? Report it',
+    };
+---
+
+<Default />
+<p class="handbook-footer">
+  <span>© 2026 Görkem Sarı</span>
+  <a href={text.licenseUrl} rel="license">{text.license}</a>
+  <a href={repo}>⭐ {text.star}</a>
+  <a href={`${repo}/issues/new/choose`}>{text.issue}</a>
+</p>
+
+<style>
+  .handbook-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--sl-color-hairline);
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+  }
+  .handbook-footer a {
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+  }
+  .handbook-footer a:hover {
+    color: var(--sl-color-white);
+    text-decoration: underline;
+  }
+</style>

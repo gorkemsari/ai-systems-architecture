@@ -1,0 +1,96 @@
+---
+title: AI Systems Architecture Handbook
+description: An engineering handbook for building LLM-based systems that hold up in production.
+template: splash
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: index, follow
+hero:
+  tagline: Architecting LLM-based systems for production - from probabilistic components to governed platforms.
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Start Reading
+      link: /ai-systems-architecture/en/foundations
+      icon: right-arrow
+      variant: primary
+    - text: Visit GitHub repo
+      link: https://github.com/gorkemsari/ai-systems-architecture
+      icon: github
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## About This Handbook
+
+This handbook covers the architecture of integrating LLM-based capabilities into production systems so that they are secure, scalable, observable, and cost-effective. It is written for solution and software architects and senior engineers who already build distributed systems and now have to make them work with a component that is probabilistic by nature.
+
+Model training, machine learning mathematics, and research-level topics are deliberately out of scope; fine-tuning appears only as an architectural and integration decision. Every page favors durable principles and patterns over specific products, and names tools as examples of a mechanism rather than as recommendations.
+
+This handbook is the companion of the [Distributed Systems Handbook](https://gorkemsari.github.io/distributed-systems/en/). Primitives such as idempotency, sagas, backpressure, caching, and consistency models are explained there once; pages here apply them to AI systems and link to the canonical page instead of repeating it.
+
+## Reading Paths
+
+- **Architects** start with Parts I and II, then read VI, VII, and XIV before designing anything for production.
+- **Platform engineers** focus on Parts IX, X, and XI.
+- **Security engineers** go to Part VII, then IV (retrieval authorization) and V (agent isolation).
+- **Tech leads shipping a first feature** follow III, IV, VI, and VIII in that order.
+
+## Index
+
+<CardGrid stagger>
+  <Card title="I. Foundations: The Architectural Nature of AI Systems" icon="open-book">
+    Why a probabilistic component changes testing, contracts, and failure analysis, and when AI is the wrong tool.
+  </Card>
+  <Card title="II. Model Strategy & Selection" icon="document">
+    Choosing, routing, versioning, and adapting models without locking the architecture to a single provider.
+  </Card>
+  <Card title="III. Context Engineering" icon="pencil">
+    Treating the context window as a scarce, priced resource: prompt layering, structured output, caching.
+  </Card>
+  <Card title="IV. Retrieval & Knowledge Architecture" icon="add-document">
+    Delivering the right enterprise knowledge to the model: ingestion, chunking, indexing, hybrid search, and authorization.
+  </Card>
+  <Card title="V. Tool Use & Agent Architecture" icon="rocket">
+    Models that take actions: tool design, MCP, agent patterns, durable execution, idempotency, and human approval.
+  </Card>
+  <Card title="VI. Evaluation & Quality Engineering" icon="approve-check">
+    Defining, measuring, and protecting quality in a non-deterministic system, from golden datasets to CI quality gates.
+  </Card>
+  <Card title="VII. AI Security" icon="warning">
+    Prompt injection, exfiltration, poisoning, and agent authorization: the new attack surface and layered defenses.
+  </Card>
+  <Card title="VIII. Reliability & Resilience" icon="star">
+    Keeping the system in control when providers fail and outputs go wrong: fallbacks, validation, guardrails.
+  </Card>
+  <Card title="IX. Inference Serving & Infrastructure" icon="laptop">
+    Running models on your own hardware: KV cache, batching, quantization, GPU capacity, and Kubernetes serving.
+  </Card>
+  <Card title="X. AI Gateway & Platform Architecture" icon="setting">
+    The central control point for AI usage: LLM gateways, token quotas, semantic caching, registries, the paved road.
+  </Card>
+  <Card title="XI. Observability & LLMOps" icon="magnifier">
+    Tracing, logging, drift detection, change management, and incident response for AI in production.
+  </Card>
+  <Card title="XII. Cost & Performance Economics" icon="sun">
+    Where the money goes and how to spend less without losing quality: tokens, attribution, TCO, optimization.
+  </Card>
+  <Card title="XIII. Data Governance for AI" icon="list-format">
+    Quality, provenance, reuse, retention, and erasure of the data that feeds and is produced by AI systems.
+  </Card>
+  <Card title="XIV. Governance, Risk & Compliance" icon="information">
+    Risk tiers, model risk management, EU AI Act, KVKK and BDDK, auditability, and the AI operating model.
+  </Card>
+  <Card title="XV. UX & Product Integration" icon="puzzle">
+    How the product surface shapes the backend: streaming, interaction patterns, and communicating uncertainty.
+  </Card>
+  <Card title="XVI. AI-Assisted Software Engineering" icon="github">
+    AI inside the engineering process: coding assistants, review standards, agentic coding security.
+  </Card>
+  <Card title="XVII. Patterns, Reference Architectures & Toolkit" icon="heart">
+    Reusable patterns, anti-patterns, ADR templates, review checklists, and end-to-end reference architectures.
+  </Card>
+</CardGrid>

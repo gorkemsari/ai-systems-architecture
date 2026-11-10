@@ -1,0 +1,19 @@
+/* Build-time Mermaid diagrams: one light and one dark SVG per diagram.
+   Show the variant that matches Starlight's current theme. */
+.mermaid-figure {
+  margin: 1.5rem 0 0.5rem;
+  overflow-x: auto;
+}
+.mermaid-figure svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+:root[data-theme='dark'] .mermaid-light,
+:root:not([data-theme='dark']) .mermaid-dark {
+  display: none;
+}
+.mermaid-error {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question or start a discussion
+    url: https://github.com/gorkemsari/ai-systems-architecture/discussions
+    about: Questions, ideas, and conversations about the handbook (English or Turkish).
+  - name: Read the handbook
+    url: https://gorkemsari.github.io/ai-systems-architecture/en/
+    about: Browse the full table of contents in English or Turkish.

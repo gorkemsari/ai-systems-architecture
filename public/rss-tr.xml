@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Systems Architecture Handbook (Türkçe)</title>
+    <link>https://gorkemsari.github.io/ai-systems-architecture/tr/whats-new/</link>
+    <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
+    <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
+    <language>tr</language>
+    <lastBuildDate>Tue, 10 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Tool Call Idempotency, Retry ve Compensation</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/agents/reliable-execution/idempotency-compensation/</link>
+      <guid isPermaLink="false">agents/reliable-execution/idempotency-compensation#2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Agent&#x27;lar retry ve yeniden planlama yoluyla yan etkileri nasıl çoğaltır, idempotency key niyetten nasıl türetilir, yarım kalan plan nasıl geri alınır.</description>
+    </item>
+  </channel>
+</rss>

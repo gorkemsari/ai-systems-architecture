@@ -1,0 +1,32 @@
+{
+  "name": "ai-systems-architecture",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/sitemap": "^3.7.2",
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2",
+    "starlight-theme-rapide": "^0.5.2",
+    "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "devDependencies": {
+    "hast-util-from-html-isomorphic": "^2.0.0",
+    "mermaid-isomorphic": "3.1.0",
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,53 @@
+name: Content error
+description: Report a factual, technical, translation, or rendering error on a handbook page.
+title: "[Content] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the handbook. You can write in English or Turkish (Türkçe yazabilirsiniz).
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: Link to the page with the error.
+      placeholder: https://gorkemsari.github.io/ai-systems-architecture/en/...
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language version
+      options:
+        - English
+        - Turkish
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of error
+      options:
+        - Factual or technical error
+        - Outdated information
+        - Translation issue
+        - Broken diagram, link, or formatting
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the passage, diagram, or sentence and explain the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction and source
+      description: If you can, describe the fix and link a primary source (paper, official documentation, postmortem).
+    validations:
+      required: false

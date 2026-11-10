@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  :root{
+    --bg: oklch(18% .006 17);
+    --bg2: oklch(22% .012 164);
+    --fg: oklch(97% .003 17);
+    --muted: oklch(74% .01 17);
+    --accent: oklch(72% .11 164);
+    --accent-dim: oklch(46% .07 164);
+    --line: oklch(36% .03 164);
+  }
+  html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:var(--bg)}
+  body{font-family:"Inter","Inter Display",sans-serif;color:var(--fg);position:relative;
+       background:radial-gradient(900px 600px at 95% 10%, var(--bg2), var(--bg) 70%)}
+  .frame{position:absolute;inset:0;padding:72px 80px;display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box}
+  .eyebrow{font-size:22px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  h1{font-family:"Inter Display","Inter",sans-serif;font-weight:700;font-size:78px;line-height:1.02;letter-spacing:-.02em;margin:22px 0 0;max-width:720px}
+  .sub{font-size:27px;line-height:1.38;color:var(--muted);margin-top:24px;max-width:700px}
+  .foot{display:flex;align-items:center;gap:18px;font-size:22px;color:var(--muted)}
+  .foot .rule{width:48px;height:3px;background:var(--accent);border-radius:2px}
+  .langs{margin-left:auto;font-weight:600;letter-spacing:.08em;color:var(--fg);
+         border:2px solid var(--line);border-radius:999px;padding:8px 18px;font-size:20px}
+  svg{position:absolute;right:44px;top:118px}
+</style></head><body>
+<svg width="330" height="314" viewBox="0 0 400 380" aria-hidden="true">
+  <g stroke="oklch(46% .07 164)" stroke-width="2.5" fill="none">
+    <line x1="200" y1="60" x2="80" y2="170"/><line x1="200" y1="60" x2="320" y2="170"/>
+    <line x1="80" y1="170" x2="320" y2="170"/><line x1="80" y1="170" x2="140" y2="310"/>
+    <line x1="320" y1="170" x2="260" y2="310"/><line x1="140" y1="310" x2="260" y2="310"/>
+    <line x1="200" y1="60" x2="140" y2="310" stroke-dasharray="6 8" opacity=".7"/>
+    <line x1="200" y1="60" x2="260" y2="310" stroke-dasharray="6 8" opacity=".7"/>
+  </g>
+  <g fill="oklch(18% .006 17)" stroke-width="4">
+    <circle cx="200" cy="60" r="22" stroke="oklch(72% .11 164)" fill="oklch(30% .05 164)"/>
+    <circle cx="80" cy="170" r="17" stroke="oklch(72% .11 164)"/>
+    <circle cx="320" cy="170" r="17" stroke="oklch(72% .11 164)"/>
+    <circle cx="140" cy="310" r="17" stroke="oklch(72% .11 164)"/>
+    <circle cx="260" cy="310" r="17" stroke="oklch(58% .02 17)" stroke-dasharray="5 5"/>
+  </g>
+</svg>
+<div class="frame">
+  <div>
+    <div class="eyebrow">Engineering Handbook</div>
+    <h1>AI Systems Architecture Handbook</h1>
+    <div class="sub">Architecting LLM-based systems for production: retrieval, agents, evaluation, security, serving, and governance.</div>
+  </div>
+  <div class="foot"><span class="rule"></span><span>gorkemsari.github.io/ai-systems-architecture</span><span class="langs">EN · TR</span></div>
+</div>
+</body></html>

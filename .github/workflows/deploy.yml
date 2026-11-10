@@ -1,0 +1,68 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install
+      # Mermaid diagrams are rendered to SVG at build time in headless Chromium.
+      # Keep the cache key in sync with the playwright version in package.json.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-1.63.0
+      - run: pnpm exec playwright install --with-deps chromium
+      # Rendered SVGs are cached by diagram content, so a build only renders
+      # diagrams that are new or changed.
+      - name: Cache rendered Mermaid diagrams
+        uses: actions/cache@v4
+        with:
+          path: .cache/mermaid
+          key: mermaid-${{ hashFiles('src/content/docs/**/*.mdx') }}
+          restore-keys: mermaid-
+      - name: Build
+        env:
+          MERMAID_SSR: '1'
+        run: |
+          set -o pipefail
+          pnpm build 2>&1 | tee build.log
+          failed=$(grep -c '\[mermaid\] render failed' build.log || true)
+          if [ "$failed" -gt 0 ]; then
+            echo "::warning title=Mermaid::$failed diagram(s) failed to render and are shown as code. See '[mermaid] render failed' lines in the build log."
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment

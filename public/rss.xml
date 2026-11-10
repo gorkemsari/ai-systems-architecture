@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Systems Architecture Handbook</title>
+    <link>https://gorkemsari.github.io/ai-systems-architecture/en/whats-new/</link>
+    <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Tool Call Idempotency, Retry, and Compensation</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/agents/reliable-execution/idempotency-compensation/</link>
+      <guid isPermaLink="false">agents/reliable-execution/idempotency-compensation#2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Why agents duplicate side effects through retries and re-planning, how to derive idempotency keys from intent, and how to compensate a half-executed plan.</description>
+    </item>
+  </channel>
+</rss>

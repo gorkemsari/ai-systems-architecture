@@ -1,0 +1,37 @@
+name: Topic suggestion
+description: Suggest a topic, a missing angle, or a case study for the handbook.
+title: "[Topic] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The full table of contents is on the [site](https://gorkemsari.github.io/ai-systems-architecture/en/). You can write in English or Turkish (Türkçe yazabilirsiniz).
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: e.g. Speculative decoding in production serving
+    validations:
+      required: true
+  - type: input
+    id: placement
+    attributes:
+      label: Where does it fit?
+      description: The part or chapter it belongs to, or the existing page it extends.
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What problem does it help engineers solve, and what is missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Key sources
+      description: Papers, documentation, talks, or postmortems the page should build on.
+    validations:
+      required: false

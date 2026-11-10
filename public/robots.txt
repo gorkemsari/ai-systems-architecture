@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gorkemsari.github.io/distributed-systems/sitemap-index.xml
