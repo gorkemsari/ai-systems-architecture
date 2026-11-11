@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Deterministic vs. Probabilistic Systems: What Changes for Architecture</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/deterministic-vs-probabilistic/</link>
+      <guid isPermaLink="false">foundations/ai-component-model/deterministic-vs-probabilistic#2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How contracts, retries, caching, testing, versioning, and auditing change when a component returns a sample from a distribution instead of a computed result.</description>
+    </item>
     <item>
       <title>Tool Call Idempotency, Retry, and Compensation</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/agents/reliable-execution/idempotency-compensation/</link>
