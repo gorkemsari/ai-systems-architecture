@@ -47,14 +47,13 @@ const mermaidClientScript = {
 export default defineConfig({
   site: 'https://gorkemsari.github.io',
   base: '/ai-systems-architecture',
-  redirects: {
-    '/': '/ai-systems-architecture/en/'
-  },
   markdown: {
     rehypePlugins: MERMAID_SSR ? mermaidPasses : [],
   },
   integrations: [
     sitemap({
+      // The root page only redirects to a language; keep it out of the sitemap.
+      filter: (page) => page !== 'https://gorkemsari.github.io/ai-systems-architecture/',
       i18n: {
         defaultLocale: 'en',
         locales: {

@@ -1,0 +1,57 @@
+---
+// Root of the site (/ai-systems-architecture/). GitHub Pages cannot send HTTP
+// redirects, so this page redirects in the browser:
+//   1. JavaScript sends Turkish-language browsers to /tr/ and everyone else to /en/.
+//   2. Without JavaScript, a 0-second meta refresh sends everyone to /en/.
+// It also carries Open Graph tags, because link-preview bots (LinkedIn, X,
+// WhatsApp) usually do not follow meta refresh and would otherwise show an
+// empty card for the most-shared URL. It is noindex with a canonical to /en/,
+// and it is excluded from the sitemap in astro.config.mjs.
+const site = 'https://gorkemsari.github.io/ai-systems-architecture';
+const base = '/ai-systems-architecture';
+const title = 'AI Systems Architecture Handbook';
+const description =
+  'A bilingual (English/Turkish) handbook on architecting LLM-based systems for production: retrieval, agents, evaluation, security, and serving.';
+const image = `${site}/og-image.png`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline define:vars={{ base }}>
+      try {
+        var lang = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+        var target = lang.indexOf('tr') === 0 ? 'tr' : 'en';
+        location.replace(base + '/' + target + '/' + location.search + location.hash);
+      } catch (e) {}
+    </script>
+    <meta http-equiv="refresh" content={`0;url=${base}/en/`} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={`${site}/en/`} />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={title} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={`${site}/`} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: system-ui, sans-serif; background: #17181c; color: #e6e6e6; }
+      a { color: #5fd3a8; }
+    </style>
+  </head>
+  <body>
+    <p>{title}: <a href={`${base}/en/`}>English</a> · <a href={`${base}/tr/`}>Türkçe</a></p>
+  </body>
+</html>
