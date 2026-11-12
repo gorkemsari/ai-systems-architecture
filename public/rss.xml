@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Anatomy of an LLM as a System Component: Tokens, Context, Sampling</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/llm-anatomy/</link>
+      <guid isPermaLink="false">foundations/ai-component-model/llm-anatomy#2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How tokenization, a stateless bounded context window, and the sample-append-stop loop set the cost, latency, limits, and failure modes of every LLM call.</description>
+    </item>
     <item>
       <title>Deterministic vs. Probabilistic Systems: What Changes for Architecture</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/deterministic-vs-probabilistic/</link>

@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Bir Sistem Bileşeni Olarak LLM&#x27;in Anatomisi: Token, Context, Sampling</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/foundations/ai-component-model/llm-anatomy/</link>
+      <guid isPermaLink="false">foundations/ai-component-model/llm-anatomy#2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Tokenization, durumsuz ve sınırlı context window ile örnekle-ekle-dur döngüsü, her LLM çağrısının maliyetini, latency&#x27;sini, limitlerini ve hatalarını belirler.</description>
+    </item>
     <item>
       <title>Deterministik ve Olasılıksal Sistemler: Mimaride Neler Değişir</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/foundations/ai-component-model/deterministic-vs-probabilistic/</link>
