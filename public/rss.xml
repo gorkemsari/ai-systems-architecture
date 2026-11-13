@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Capability vs. Reliability: Closing the Production Gap</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/capability-vs-reliability/</link>
+      <guid isPermaLink="false">foundations/ai-component-model/capability-vs-reliability#2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Why benchmark and demo scores overstate delivered quality, how to measure pass^k and worst-slice rates, and how scope, checks, and abstention close it.</description>
+    </item>
     <item>
       <title>Anatomy of an LLM as a System Component: Tokens, Context, Sampling</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/llm-anatomy/</link>
