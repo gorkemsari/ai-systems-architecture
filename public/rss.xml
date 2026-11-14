@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The AI Component Model</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/</link>
+      <guid isPermaLink="false">foundations/ai-component-model#2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
+      <description>What kind of component an LLM is, how tokens, context, and sampling shape its behavior, and why a measured quality rate is not the rate production delivers.</description>
+    </item>
     <item>
       <title>Capability vs. Reliability: Closing the Production Gap</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/capability-vs-reliability/</link>
