@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 5 / 188 done.
+Progress: 6 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -14,7 +14,7 @@ Progress: 5 / 188 done.
 | 002 | done | topic | standard | `foundations/ai-component-model/llm-anatomy` | Anatomy of an LLM as a System Component: Tokens, Context, Sampling | 2026-11-12, 4011 words |
 | 003 | done | topic | standard | `foundations/ai-component-model/capability-vs-reliability` | Capability vs. Reliability: Closing the Production Gap | 2026-11-13, 4486 words |
 | 004 | done | chapter-overview | - | `foundations/ai-component-model` | The AI Component Model | 2026-11-14, 1509 words |
-| 005 | todo | topic | - | `foundations/failure-and-fit/failure-mode-taxonomy` | A Taxonomy of AI Failure Modes |  |
+| 005 | done | topic | deep | `foundations/failure-and-fit/failure-mode-taxonomy` | A Taxonomy of AI Failure Modes | 2026-11-15, 4846 words |
 | 006 | todo | topic | - | `foundations/failure-and-fit/when-not-to-use-ai` | When AI Is the Wrong Solution: A Decision Framework |  |
 | 007 | todo | topic | - | `foundations/failure-and-fit/demo-to-production` | From Demo to Production: Why AI Prototypes Mislead |  |
 | 008 | todo | chapter-overview | - | `foundations/failure-and-fit` | Failure Modes and Fitness for Purpose |  |

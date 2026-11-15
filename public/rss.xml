@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>A Taxonomy of AI Failure Modes</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/failure-mode-taxonomy/</link>
+      <guid isPermaLink="false">foundations/failure-and-fit/failure-mode-taxonomy#2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How to classify LLM system failures by origin layer, detectability, and consequence, triage them from recorded traces, and map them to OWASP, NIST, and MAST.</description>
+    </item>
     <item>
       <title>The AI Component Model</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/ai-component-model/</link>

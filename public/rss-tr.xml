@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Sat, 14 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>AI Hata Türlerinin Taksonomisi</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/foundations/failure-and-fit/failure-mode-taxonomy/</link>
+      <guid isPermaLink="false">foundations/failure-and-fit/failure-mode-taxonomy#2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
+      <description>LLM sistem hataları köken katmanı, tespit edilebilirlik ve sonuca göre nasıl sınıflanır, trace&#x27;ten nasıl triage edilir, OWASP, NIST ve MAST&#x27;e nasıl eşlenir.</description>
+    </item>
     <item>
       <title>AI Bileşen Modeli</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/foundations/ai-component-model/</link>
