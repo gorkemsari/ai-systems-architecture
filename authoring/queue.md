@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 6 / 188 done.
+Progress: 7 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Progress: 6 / 188 done.
 | 003 | done | topic | standard | `foundations/ai-component-model/capability-vs-reliability` | Capability vs. Reliability: Closing the Production Gap | 2026-11-13, 4486 words |
 | 004 | done | chapter-overview | - | `foundations/ai-component-model` | The AI Component Model | 2026-11-14, 1509 words |
 | 005 | done | topic | deep | `foundations/failure-and-fit/failure-mode-taxonomy` | A Taxonomy of AI Failure Modes | 2026-11-15, 4846 words |
-| 006 | todo | topic | - | `foundations/failure-and-fit/when-not-to-use-ai` | When AI Is the Wrong Solution: A Decision Framework |  |
+| 006 | done | topic | standard | `foundations/failure-and-fit/when-not-to-use-ai` | When AI Is the Wrong Solution: A Decision Framework | 2026-11-16, 4468 words |
 | 007 | todo | topic | - | `foundations/failure-and-fit/demo-to-production` | From Demo to Production: Why AI Prototypes Mislead |  |
 | 008 | todo | chapter-overview | - | `foundations/failure-and-fit` | Failure Modes and Fitness for Purpose |  |
 | 009 | todo | part-overview | - | `foundations` | Foundations: The Architectural Nature of AI Systems |  |

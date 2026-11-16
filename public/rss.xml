@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>When AI Is the Wrong Solution: A Decision Framework</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/when-not-to-use-ai/</link>
+      <guid isPermaLink="false">foundations/failure-and-fit/when-not-to-use-ai#2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+      <description>A gated procedure for deciding whether a task should use an LLM, rules, classical ML, or people, from input openness, error tolerance, checkability, and cost.</description>
+    </item>
     <item>
       <title>A Taxonomy of AI Failure Modes</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/failure-mode-taxonomy/</link>
