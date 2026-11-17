@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>From Demo to Production: Why AI Prototypes Mislead</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/demo-to-production/</link>
+      <guid isPermaLink="false">foundations/failure-and-fit/demo-to-production#2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How the prototype loop manufactures optimistic evidence through chosen inputs, tuning, lenient grading, and a hidden operator, and which evidence replaces it.</description>
+    </item>
     <item>
       <title>When AI Is the Wrong Solution: A Decision Framework</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/when-not-to-use-ai/</link>
