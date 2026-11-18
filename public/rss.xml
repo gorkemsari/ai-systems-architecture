@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Failure Modes and Fitness for Purpose</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/</link>
+      <guid isPermaLink="false">foundations/failure-and-fit#2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How to classify what goes wrong in model-backed systems, decide whether a model belongs on a task, and tell a convincing prototype from evidence of reliability.</description>
+    </item>
     <item>
       <title>From Demo to Production: Why AI Prototypes Mislead</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/failure-and-fit/demo-to-production/</link>
