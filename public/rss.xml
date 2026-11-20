@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Frontier, Open-Weight, and Small Language Models</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/model-landscape/model-categories/</link>
+      <guid isPermaLink="false">model-strategy/model-landscape/model-categories#2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How frontier, open-weight, and small models differ in who controls weights and versions, what runs where, memory and cost math, licensing, and failure modes.</description>
+    </item>
     <item>
       <title>Foundations: The Architectural Nature of AI Systems</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/foundations/</link>
