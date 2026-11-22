@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 12 / 188 done.
+Progress: 13 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -21,7 +21,7 @@ Progress: 12 / 188 done.
 | 009 | done | part-overview | - | `foundations` | Foundations: The Architectural Nature of AI Systems | 2026-11-19, 1480 words |
 | 010 | done | topic | standard | `model-strategy/model-landscape/model-categories` | Frontier, Open-Weight, and Small Language Models | 2026-11-20, 4492 words |
 | 011 | done | topic | standard | `model-strategy/model-landscape/reasoning-models` | Reasoning Models and Test-Time Compute | 2026-11-21, 3939 words |
-| 012 | todo | topic | - | `model-strategy/model-landscape/multimodal-models` | Multimodal Models: Vision, Documents, and Audio |  |
+| 012 | done | topic | standard | `model-strategy/model-landscape/multimodal-models` | Multimodal Models: Vision, Documents, and Audio | 2026-11-22, 4332 words |
 | 013 | todo | chapter-overview | - | `model-strategy/model-landscape` | The Model Landscape |  |
 | 014 | todo | topic | - | `model-strategy/selection-and-deployment/selection-criteria` | Model Selection Criteria: A Multi-Criteria Method |  |
 | 015 | todo | topic | - | `model-strategy/selection-and-deployment/hosted-vs-self-hosted` | Hosted API vs. Self-Hosted vs. Hybrid Deployment |  |

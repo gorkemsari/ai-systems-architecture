@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multimodal Models: Vision, Documents, and Audio</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/model-landscape/multimodal-models/</link>
+      <guid isPermaLink="false">model-strategy/model-landscape/multimodal-models#2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How images, PDF pages, and audio become tokens, what resolution budgets cost, when native multimodal input beats OCR or ASR pipelines, and how it fails.</description>
+    </item>
     <item>
       <title>Reasoning Models and Test-Time Compute</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/model-landscape/reasoning-models/</link>
