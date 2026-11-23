@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Model Landscape</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/model-landscape/</link>
+      <guid isPermaLink="false">model-strategy/model-landscape#2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How weight control and scale, test-time compute, and input modality each change a model&#x27;s contract on cost, latency, versioning, and where its errors hide.</description>
+    </item>
     <item>
       <title>Multimodal Models: Vision, Documents, and Audio</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/model-landscape/multimodal-models/</link>

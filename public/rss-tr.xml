@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Model Ekosistemi</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/model-landscape/</link>
+      <guid isPermaLink="false">model-strategy/model-landscape#2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Ağırlık kontrolü ve ölçek, test-time compute ve girdi modalitesinin bir modelin maliyet, latency, versiyon ve hata sözleşmesini nasıl değiştirdiği.</description>
+    </item>
     <item>
       <title>Multimodal Model&#x27;ler: Görsel, Doküman ve Ses</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/model-landscape/multimodal-models/</link>

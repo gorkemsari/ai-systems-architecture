@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 13 / 188 done.
+Progress: 14 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Progress: 13 / 188 done.
 | 010 | done | topic | standard | `model-strategy/model-landscape/model-categories` | Frontier, Open-Weight, and Small Language Models | 2026-11-20, 4492 words |
 | 011 | done | topic | standard | `model-strategy/model-landscape/reasoning-models` | Reasoning Models and Test-Time Compute | 2026-11-21, 3939 words |
 | 012 | done | topic | standard | `model-strategy/model-landscape/multimodal-models` | Multimodal Models: Vision, Documents, and Audio | 2026-11-22, 4332 words |
-| 013 | todo | chapter-overview | - | `model-strategy/model-landscape` | The Model Landscape |  |
+| 013 | done | chapter-overview | - | `model-strategy/model-landscape` | The Model Landscape | 2026-11-23, 1633 words |
 | 014 | todo | topic | - | `model-strategy/selection-and-deployment/selection-criteria` | Model Selection Criteria: A Multi-Criteria Method |  |
 | 015 | todo | topic | - | `model-strategy/selection-and-deployment/hosted-vs-self-hosted` | Hosted API vs. Self-Hosted vs. Hybrid Deployment |  |
 | 016 | todo | topic | - | `model-strategy/selection-and-deployment/model-routing` | Multi-Model Strategy and Model Routing |  |
