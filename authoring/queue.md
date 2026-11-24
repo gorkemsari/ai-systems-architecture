@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 14 / 188 done.
+Progress: 15 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@ Progress: 14 / 188 done.
 | 011 | done | topic | standard | `model-strategy/model-landscape/reasoning-models` | Reasoning Models and Test-Time Compute | 2026-11-21, 3939 words |
 | 012 | done | topic | standard | `model-strategy/model-landscape/multimodal-models` | Multimodal Models: Vision, Documents, and Audio | 2026-11-22, 4332 words |
 | 013 | done | chapter-overview | - | `model-strategy/model-landscape` | The Model Landscape | 2026-11-23, 1633 words |
-| 014 | todo | topic | - | `model-strategy/selection-and-deployment/selection-criteria` | Model Selection Criteria: A Multi-Criteria Method |  |
+| 014 | done | topic | standard | `model-strategy/selection-and-deployment/selection-criteria` | Model Selection Criteria: A Multi-Criteria Method | 2026-11-24, 4493 words |
 | 015 | todo | topic | - | `model-strategy/selection-and-deployment/hosted-vs-self-hosted` | Hosted API vs. Self-Hosted vs. Hybrid Deployment |  |
 | 016 | todo | topic | - | `model-strategy/selection-and-deployment/model-routing` | Multi-Model Strategy and Model Routing |  |
 | 017 | todo | chapter-overview | - | `model-strategy/selection-and-deployment` | Model Selection and Deployment Models |  |

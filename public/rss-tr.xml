@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Model Seçim Kriterleri: Çok Kriterli Bir Yöntem</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/selection-criteria/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment/selection-criteria#2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Bileşen bazında model seçimi; zorunlu kapılar, slice bazlı eval, yük altında latency, başarılı görev başına maliyet, Pareto filtresi ve duyarlılık kontrolü.</description>
+    </item>
     <item>
       <title>Model Ekosistemi</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/model-landscape/</link>
