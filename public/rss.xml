@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Hosted API vs. Self-Hosted vs. Hybrid Deployment</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/hosted-vs-self-hosted/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment/hosted-vs-self-hosted#2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How processing location, operator, and capacity contract separate hosted, provisioned, and self-hosted inference, and how to build a fail-closed hybrid.</description>
+    </item>
     <item>
       <title>Model Selection Criteria: A Multi-Criteria Method</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/selection-criteria/</link>

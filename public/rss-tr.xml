@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Hosted API, Self-Hosted ve Hibrit Deployment</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/hosted-vs-self-hosted/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment/hosted-vs-self-hosted#2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:00:00 +0000</pubDate>
+      <description>İşleme konumu, operatör ve kapasite sözleşmesi hosted, provisioned ve self-hosted inference&#x27;ı nasıl ayırır; fail-closed çalışan bir hibrit nasıl kurulur.</description>
+    </item>
     <item>
       <title>Model Seçim Kriterleri: Çok Kriterli Bir Yöntem</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/selection-criteria/</link>
