@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multi-Model Strategy and Model Routing</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/model-routing/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment/model-routing#2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How predictive routers and cascades pick a model per request, how to set thresholds from error costs, and how routing fails through drift and cost attacks.</description>
+    </item>
     <item>
       <title>Hosted API vs. Self-Hosted vs. Hybrid Deployment</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/hosted-vs-self-hosted/</link>

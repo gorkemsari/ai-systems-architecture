@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Multi-Model Strateji ve Model Routing</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/model-routing/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment/model-routing#2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Tahmine dayalı router ve cascade&#x27;ler istek başına modeli nasıl seçer, eşik hata maliyetinden nasıl çıkar, routing drift ve maliyet saldırısıyla nasıl bozulur.</description>
+    </item>
     <item>
       <title>Hosted API, Self-Hosted ve Hibrit Deployment</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/hosted-vs-self-hosted/</link>
