@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss-tr.xml" rel="self" type="application/rss+xml"/>
     <description>AI Systems Architecture Handbook&#x27;un yeni ve yeniden yazılan sayfaları.</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Model Seçimi ve Deployment Modelleri</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment#2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:00:00 +0000</pubDate>
+      <description>Bileşen başına model yapılandırmasını seçmek, nerede ve kimin kapasitesinde çalışacağına karar vermek ve her isteği veri sınıfı kurallarına uyarak route etmek.</description>
+    </item>
     <item>
       <title>Multi-Model Strateji ve Model Routing</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/tr/model-strategy/selection-and-deployment/model-routing/</link>

@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Model Selection and Deployment Models</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/</link>
+      <guid isPermaLink="false">model-strategy/selection-and-deployment#2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How to choose a model configuration per component, decide where and on whose capacity it runs, and route each request without breaking data-class rules.</description>
+    </item>
     <item>
       <title>Multi-Model Strategy and Model Routing</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/model-routing/</link>
