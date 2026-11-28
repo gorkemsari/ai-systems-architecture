@@ -6,7 +6,7 @@ Depth is chosen by each run for topic pages (`standard` or `deep`, see
 project-instruction.md section 2.1); `-` means not yet generated or not a topic page.
 Each scheduled run takes the first `todo` row from the top.
 
-Progress: 18 / 188 done.
+Progress: 19 / 188 done.
 
 | # | Status | Type | Depth | Slug | Title | Note |
 |---|---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Progress: 18 / 188 done.
 | 015 | done | topic | standard | `model-strategy/selection-and-deployment/hosted-vs-self-hosted` | Hosted API vs. Self-Hosted vs. Hybrid Deployment | 2026-11-25, 4424 words |
 | 016 | done | topic | standard | `model-strategy/selection-and-deployment/model-routing` | Multi-Model Strategy and Model Routing | 2026-11-26, 4494 words |
 | 017 | done | chapter-overview | - | `model-strategy/selection-and-deployment` | Model Selection and Deployment Models | 2026-11-27, 1638 words |
-| 018 | todo | topic | - | `model-strategy/lifecycle-and-adaptation/versioning-migration` | Model Versioning, Deprecation, and Migration |  |
+| 018 | done | topic | standard | `model-strategy/lifecycle-and-adaptation/versioning-migration` | Model Versioning, Deprecation, and Migration | 2026-11-28, 4099 words |
 | 019 | todo | topic | - | `model-strategy/lifecycle-and-adaptation/vendor-lock-in` | Vendor Lock-in and the Abstraction Layer |  |
 | 020 | todo | topic | - | `model-strategy/lifecycle-and-adaptation/prompting-rag-finetuning` | Prompting vs. RAG vs. Fine-Tuning: A Decision Framework |  |
 | 021 | todo | topic | - | `model-strategy/lifecycle-and-adaptation/finetuning-distillation` | Fine-Tuning and Distillation: An Integration Perspective |  |

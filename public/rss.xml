@@ -6,7 +6,14 @@
     <atom:link href="https://gorkemsari.github.io/ai-systems-architecture/rss.xml" rel="self" type="application/rss+xml"/>
     <description>New and rewritten pages of the AI Systems Architecture Handbook.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 06:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Model Versioning, Deprecation, and Migration</title>
+      <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/lifecycle-and-adaptation/versioning-migration/</link>
+      <guid isPermaLink="false">model-strategy/lifecycle-and-adaptation/versioning-migration#2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:00:00 +0000</pubDate>
+      <description>How model aliases, snapshots, and retirement schedules work, how to size migration lead time against notice, and how to run a model change as a release.</description>
+    </item>
     <item>
       <title>Model Selection and Deployment Models</title>
       <link>https://gorkemsari.github.io/ai-systems-architecture/en/model-strategy/selection-and-deployment/</link>
